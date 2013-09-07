@@ -2,16 +2,10 @@
   "name": "TheFreeStore",
   "version": "0.0.0",
   "description": "TheFreeStore ============",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/LohDownVideos/TheFreeStore.git"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/LohDownVideos/TheFreeStore/issues"
   },
