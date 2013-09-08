@@ -28,8 +28,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 40.01832,
-      "longitude": -80.19298,
+      "latitude": 39.91832,
+      "longitude": -75.19298,
       "room": "Lounge 1",
       "name": "Event 1",
       "sponsor": "Sponsor 1",
@@ -55,8 +55,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.01111,
-      "longitude": -79.20139,
+      "latitude": 39.81111,
+      "longitude": -75.20139,
       "room": "Lounge 2",
       "name": "Event 2",
       "sponsor": "Sponsor 2",
@@ -82,8 +82,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 40.10392,
-      "longitude": -76.39293,
+      "latitude": 39.80392,
+      "longitude": -75.39293,
       "room": "Lounge 3",
       "name": "Event 3",
       "sponsor": "Sponsor 3",
@@ -109,8 +109,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 32.49382,
-      "longitude": -78.49232,
+      "latitude": 39.89382,
+      "longitude": -75.49232,
       "room": "Lounge 4",
       "name": "Event 4",
       "sponsor": "Sponsor 4",
@@ -136,8 +136,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 30.30291,
-      "longitude": -84.29382,
+      "latitude": 39.80291,
+      "longitude": -79.29382,
       "room": "Lounge 5",
       "name": "Event 5",
       "sponsor": "Sponsor 5",
@@ -163,8 +163,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 31.20392,
-      "longitude": -79.30923,
+      "latitude": 39.90392,
+      "longitude": -75.30923,
       "room": "Lounge 6",
       "name": "Event 6",
       "sponsor": "Sponsor 6",
@@ -190,8 +190,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 31.30383,
-      "longitude": -79.20393,
+      "latitude": 39.90383,
+      "longitude": -75.20393,
       "room": "Lounge 7",
       "name": "Event 7",
       "sponsor": "Sponsor 7",
@@ -217,8 +217,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 29.23092,
-      "longitude": -79.29382,
+      "latitude": 39.93092,
+      "longitude": -75.29382,
       "room": "Lounge 8",
       "name": "Event 8",
       "sponsor": "Sponsor 8",
@@ -244,8 +244,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 29.30293,
-      "longitude": -79.32923,
+      "latitude": 39.90293,
+      "longitude": -75.32923,
       "room": "Lounge 9",
       "name": "Event 9",
       "sponsor": "Sponsor 9",
@@ -325,7 +325,7 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.28382,
+      "latitude": 39.98382,
       "longitude": -74.39128,
       "room": "Lounge 12",
       "name": "Event 12",
@@ -352,7 +352,7 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.39482,
+      "latitude": 39.99482,
       "longitude": -75.49382,
       "room": "Lounge 13",
       "name": "Event 13",
@@ -406,7 +406,7 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.29383,
+      "latitude": 39.99383,
       "longitude": -75.49382,
       "room": "Lounge 15",
       "name": "Event 15",
@@ -433,7 +433,7 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.29323,
+      "latitude": 39.99323,
       "longitude": -75.43382,
       "room": "Lounge 16",
       "name": "Event 16",
@@ -487,8 +487,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.00039,
-      "longitude": -76.20918,
+      "latitude": 39.90039,
+      "longitude": -75.20918,
       "room": "Lounge 18",
       "name": "Event 18",
       "sponsor": "Sponsor 18",
@@ -515,7 +515,7 @@ var events = [
     },
     {
       "latitude": 40.95039,
-      "longitude": -73.20918,
+      "longitude": -75.20918,
       "room": "Lounge 19",
       "name": "Event 19",
       "sponsor": "Sponsor 19",
@@ -536,7 +536,7 @@ var events = [
     },
     {
       "latitude": 39.95539,
-      "longitude": -74.10918,
+      "longitude": -75.10918,
       "room": "Lounge 20",
       "name": "Event 20",
       "sponsor": "Sponsor 20",
@@ -556,8 +556,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 35.95039,
-      "longitude": -74.20918,
+      "latitude": 39.95039,
+      "longitude": -75.20918,
       "room": "Lounge 21",
       "name": "Event 21",
       "sponsor": "Sponsor 21",
@@ -598,7 +598,7 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 40.94039,
+      "latitude": 39.94039,
       "longitude": -75.20918,
       "room": "Lounge 23",
       "name": "Event 23",
@@ -646,8 +646,8 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 39.10000,
-      "longitude": -73.20918,
+      "latitude": 39.96000,
+      "longitude": -74.20918,
       "room": "Lounge 25",
       "name": "Event 25",
       "sponsor": "Sponsor 25",
@@ -667,7 +667,7 @@ var events = [
       "restrictions": "ID card required"
     },
     {
-      "latitude": 37.94039,
+      "latitude": 39.94039,
       "longitude": -75.90918,
       "room": "Lounge 26",
       "name": "Event 26",
