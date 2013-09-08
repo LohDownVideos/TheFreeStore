@@ -22,52 +22,78 @@ $(function() {
 
 	function shrinkContainer() {
 		  $(".container").animate({
-		     width:300,
+		     width:400,
 		  }, {
 		    duration: 1000,
 		  });
 
 		  $(".container").animate({
-		  	left:-430,
+		  	left:-400,
 		  	top:20
 		  });
-
-		//   setInterval(function() {
-		// 	  $("#icon").removeClass("no-display");
-		// 	  // $("#icon").fadeTo('slow', 1);
-		// 	  $("#icon").animate({
-		// 	  	top:300
-		// 	  });
-		// }, 1000);
 	}
 
-	$("#search").bind("keypress", function(evt) {
-		if (evt.keyCode && evt.keyCode == 13) {
-			// reinitialize(38.9963192, -76.933629);
+	var markers = [];
 
+	$("#search").bind("keypress", function(evt) {
+		$("#search-results").empty();
+		while (markers.length > 0) {
+			markers.pop().setMap(null);
+		}
+		if (evt.keyCode && evt.keyCode == 13) {
 			var searchVal = $(this).val();
 		  	shrinkContainer();
 
+		  	var locations = [];
+			for (var i = 0; i < events.length; i++) {
+				var obj = events[i];
+				var foodArray = obj.food;
+				for (var j = 0; j < foodArray.length; j++) {
+					if (searchVal == foodArray[j].name) {
+						locations.push({'latitude':obj.latitude, 'longitude':obj.longitude,'name':obj.name, 'address':obj.address, 'city':obj.city, 'state':obj.state, 'zipcode':obj.zipcode, 'food':searchVal, 'foodAmt': foodArray[j].generalAmount, 'instructions':obj.instructions});
+						break;
+					}
+				}
+			}
 
-			// $.get("/api/events", {food:searchVal}, function(data) {
-			// 	alert(data + ' get success');
-			// }).done(function() {
-			// 	alert('second success');
-			// }).fail(function() {
-			// 	alert('error :(');
-			// }).always(function() {
-			// 	alert('finished');
-			// });
+			var marker, i;
+			var latLang;
+			var infowindow = new google.maps.InfoWindow();			
+
+			for(i = 0; i < locations.length; i++) {
+				latLang = new google.maps.LatLng(locations[i]['latitude'], locations[i]['longitude']);
+				marker = new google.maps.Marker({
+					position: latLang,
+					map: map,
+					title: "test"
+				});
+			
+				markers.push(marker);
+
+				google.maps.event.addListener(marker, 'click', (function(marker, i) {
+					return function() {
+
+						infowindow.setContent("<b>" + locations[i]['name'] + "</b><br><br><b>Food</b><br>" + locations[i]['food'] + ", " + locations[i]['foodAmt'] + "<br><br><i>" + locations[i]['instructions']);
+					  infowindow.open(map, marker);
+					}
+				  })(marker, i));
+			}
+			$("#search-results").append(locations.length + ' events found!');
 		}
 	});
 
 	$("#near-me").on('click', function(evt) {
+			$("#search-results").empty();
+			while (markers.length > 0) {
+				markers.pop().setMap(null);
+			}
+
 			shrinkContainer();
 
 			var nearCoords = [];
 			for (var i = 0; i < events.length; i++) {
 				var obj = events[i];
-				if (getDistanceFromLatLonInMiles(currX, currY, obj.latitude, obj.longitude) < 50) {
+				if (getDistanceFromLatLonInMiles(currX, currY, obj.latitude, obj.longitude) < 20) {
 					nearCoords.push({'latitude':obj.latitude, 'longitude':obj.longitude,'name':obj.name, 'address':obj.address, 'city':obj.city, 'state':obj.state, 'zipcode':obj.zipcode, 'food':obj.food, 'instructions':obj.instructions});
 				}
 			}
@@ -84,28 +110,17 @@ $(function() {
 					title: "test"
 				});
 			
-
+				markers.push(marker);
 				google.maps.event.addListener(marker, 'click', (function(marker, i) {
 					return function() {
 
 						//sorry about this...
-						infowindow.setContent("<b>" + nearCoords[i]['name'] + "</b><br>" + nearCoords[i]['address'] + "<br>" + nearCoords[i]['city'] + ", " + nearCoords[i]['state'] + " " + nearCoords[i]['zipcode'] + "<br><br><b>Food</b><br>" + nearCoords[i]['food'][0].name + ", " + nearCoords[i]['food'][0].generalAmount + "<br><br><i>" + nearCoords[i]['instructions']);
+						infowindow.setContent("<b>" + nearCoords[i]['name'] + "</b><br><br><b>Food</b><br>" + nearCoords[i]['food'][0].name + ", " + nearCoords[i]['food'][0].generalAmount + "<br><br><i>" + nearCoords[i]['instructions']);
 					  infowindow.open(map, marker);
 					}
 				  })(marker, i));
 			}
-
-			
-
-			// $.get("/api/events", {latitude:currX, longitude:currY}, function(data) {
-			// 	alert(data + ' get success');
-			// }).done(function() {
-			// 	alert('second success');
-			// }).fail(function() {
-			// 	alert('error :(');
-			// }).always(function() {
-			// 	alert('finished');
-			// });
+			$("#search-results").append(nearCoords.length + ' events near you!');
 	});
 
 	$("#search").val($("#search")[0].title);
