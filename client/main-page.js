@@ -61,12 +61,15 @@ $(function() {
 			shrinkContainer();
 
 			var nearCoords = [];
-			for (var obj : events) {
+			for (var i = 0; i < events.length; i++) {
+				var obj = events[i];
+				console.log(currX);
 				if (returnDistance(currX, currY, obj.latitude, obj.longitude) < 50) {
-					nearCoords.push({'latitude':obj.latitude, 'longitude:obj.longitude'});
+					nearCoords.push({'latitude':obj.latitude, 'longitude':obj.longitude});
 				}
 			}
-				
+			
+
 			// $.get("/api/events", {latitude:currX, longitude:currY}, function(data) {
 			// 	alert(data + ' get success');
 			// }).done(function() {

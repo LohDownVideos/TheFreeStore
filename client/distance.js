@@ -1,4 +1,5 @@
-function returnDistance(x1, y1, x2, y2) {
+function returnDistance(lat1, lon1, lat2, lon2) {
+
 	var earthRadius = 3959; //miles
 	var dLat = (lat2-lat1).toRad();
 	var dLon = (lon2-lon1).toRad();
