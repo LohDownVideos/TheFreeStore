@@ -34,16 +34,18 @@ textarea:focus, input[type='text']:focus, input:focus {
 	display:none;
 }
 
-#icon {
-	top:-500px;
-	height:100px;
+/*#icon {
+	margin-bottom:-5px;
+	margin-left:0;
+	height:96px;
 	width:auto;
 	background-image: url('icon.png');
 	background-repeat: no-repeat;
-}
+	z-index:100;
+}*/
 
 #search {
-	margin-left:50px;
+	margin-left:5%;
 	width:80%;
 	height:30px;
 	border-radius:10px;

@@ -28,13 +28,17 @@ $(function() {
 		  });
 
 		  $(".container").animate({
-		  	left:-400,
+		  	left:-430,
 		  	top:20
 		  });
 
-		  $("#icon").animate({
-		  	left:500
-		  });
+		//   setInterval(function() {
+		// 	  $("#icon").removeClass("no-display");
+		// 	  // $("#icon").fadeTo('slow', 1);
+		// 	  $("#icon").animate({
+		// 	  	top:300
+		// 	  });
+		// }, 1000);
 	}
 
 	$("#search").bind("keypress", function(evt) {
@@ -63,7 +67,6 @@ $(function() {
 			var nearCoords = [];
 			for (var i = 0; i < events.length; i++) {
 				var obj = events[i];
-				console.log(currX);
 				if (returnDistance(currX, currY, obj.latitude, obj.longitude) < 50) {
 					nearCoords.push({'latitude':obj.latitude, 'longitude':obj.longitude});
 				}
