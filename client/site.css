@@ -1,0 +1,64 @@
+#map {
+
+	    height:100%;
+	    position: absolute;
+	    top:0;
+	    bottom:-200px;
+	    left:0;
+	    right:0;
+	    z-index:0;
+}
+
+.container {
+	position:relative;
+	top:80px;
+    text-align:center;
+    font-family: 'Helvetica';
+    z-index:100;
+}
+
+#title {
+	font-family: 'Kavoon';
+}
+
+.row {
+	padding-top:40px;
+}
+
+textarea:focus, input[type='text']:focus, input:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+.no-display {
+	display:none;
+}
+
+#search {
+	margin-left:50px;
+	width:80%;
+	height:30px;
+	border-radius:10px;
+	border-width:5px;
+	text-align:center;
+}
+
+#near-me {
+	cursor:cursor;
+	font-size:14px;
+	margin-top:-50px;
+}
+
+/*#search-submit {
+	height:50px;
+	width:auto;
+	background: url('icon.png') no-repeat;
+}*/
+.search-default {
+	color: gray;
+}
+
+hr {
+    border-color:#D1D1D1;
+    background-color:#D1D1D1;
+}
