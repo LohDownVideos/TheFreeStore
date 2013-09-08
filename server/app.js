@@ -14,6 +14,41 @@ app.get('/api/events', function(req, res) {
   });
 });
 
+app.put('/api/notification-requests', function(req, res) {
+	var eventId = req.body['event-id'];
+	var phoneNumber = req.body['phone-number'];
+	var emailAddress = req.body['email-address']; 
+	
+	if(phoneNumber) {
+		var request = requre('request');
+		request.post(
+			'twillioapi',
+			function(error, response, body) {
+				if(!error && response.statusCode == 200) {
+					// success
+					var accountSid = 'ACa098428dff1a91c937c9a0e532305b06';
+					var authToken = 'd2112b57029e7a9202330311fd767685';
+					var client = require('twilio')(accountSid, authToken);
+					client.sms.messages.create({
+						body: "FeedMe event added: " + eventId,
+						to: phoneNumber,
+						from: "+18147463996"
+					}, function(err, message) {
+						if(err) {
+							var errorMsg = 'Error in sending message:' + err;
+							console.log(errorMsg);
+							req.send(500, errorMsg);
+						}
+					});
+				}
+			}
+		);
+		
+	} else {
+		
+	}
+});
+
 app.put('/api/events', function(req, res) {
   events.push(req.body);
 });
