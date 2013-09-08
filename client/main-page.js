@@ -67,10 +67,34 @@ $(function() {
 			var nearCoords = [];
 			for (var i = 0; i < events.length; i++) {
 				var obj = events[i];
-				if (returnDistance(currX, currY, obj.latitude, obj.longitude) < 50) {
-					nearCoords.push({'latitude':obj.latitude, 'longitude':obj.longitude});
+				if (getDistanceFromLatLonInMiles(currX, currY, obj.latitude, obj.longitude) < 50) {
+					nearCoords.push({'latitude':obj.latitude, 'longitude':obj.longitude,'name':obj.name, 'address':obj.address, 'city':obj.city, 'state':obj.state, 'zipcode':obj.zipcode, 'food':obj.food, 'instructions':obj.instructions});
 				}
 			}
+
+			var marker, i;
+			var latLang;
+			var infowindow = new google.maps.InfoWindow();			
+
+			for(i = 0; i < nearCoords.length; i++) {
+				latLang = new google.maps.LatLng(nearCoords[i]['latitude'], nearCoords[i]['longitude']);
+				marker = new google.maps.Marker({
+					position: latLang,
+					map: map,
+					title: "test"
+				});
+			
+
+				google.maps.event.addListener(marker, 'click', (function(marker, i) {
+					return function() {
+
+						//sorry about this...
+						infowindow.setContent("<b>" + nearCoords[i]['name'] + "</b><br>" + nearCoords[i]['address'] + "<br>" + nearCoords[i]['city'] + ", " + nearCoords[i]['state'] + " " + nearCoords[i]['zipcode'] + "<br><br><b>Food</b><br>" + nearCoords[i]['food'][0].name + ", " + nearCoords[i]['food'][0].generalAmount + "<br><br><i>" + nearCoords[i]['instructions']);
+					  infowindow.open(map, marker);
+					}
+				  })(marker, i));
+			}
+
 			
 
 			// $.get("/api/events", {latitude:currX, longitude:currY}, function(data) {
