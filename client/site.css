@@ -34,6 +34,14 @@ textarea:focus, input[type='text']:focus, input:focus {
 	display:none;
 }
 
+#icon {
+	top:-500px;
+	height:100px;
+	width:auto;
+	background-image: url('icon.png');
+	background-repeat: no-repeat;
+}
+
 #search {
 	margin-left:50px;
 	width:80%;
@@ -49,11 +57,6 @@ textarea:focus, input[type='text']:focus, input:focus {
 	margin-top:-50px;
 }
 
-/*#search-submit {
-	height:50px;
-	width:auto;
-	background: url('icon.png') no-repeat;
-}*/
 .search-default {
 	color: gray;
 }

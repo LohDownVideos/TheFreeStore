@@ -31,38 +31,51 @@ $(function() {
 		  	left:-400,
 		  	top:20
 		  });
+
+		  $("#icon").animate({
+		  	left:500
+		  });
 	}
 
 	$("#search").bind("keypress", function(evt) {
 		if (evt.keyCode && evt.keyCode == 13) {
 			// reinitialize(38.9963192, -76.933629);
 
-		  shrinkContainer();
+			var searchVal = $(this).val();
+		  	shrinkContainer();
 
-			$.get("/api/events", {latitude:currX, longitude:currY}, function(data) {
-				alert(data + ' get success');
-			}).done(function() {
-				alert('second success');
-			}).fail(function() {
-				alert('error :(');
-			}).always(function() {
-				alert('finished');
-			});
+
+			// $.get("/api/events", {food:searchVal}, function(data) {
+			// 	alert(data + ' get success');
+			// }).done(function() {
+			// 	alert('second success');
+			// }).fail(function() {
+			// 	alert('error :(');
+			// }).always(function() {
+			// 	alert('finished');
+			// });
 		}
 	});
 
 	$("#near-me").on('click', function(evt) {
 			shrinkContainer();
 
-			$.get("/api/events", {latitude:currX, longitude:currY}, function(data) {
-				alert(data + ' get success');
-			}).done(function() {
-				alert('second success');
-			}).fail(function() {
-				alert('error :(');
-			}).always(function() {
-				alert('finished');
-			});
+			var nearCoords = [];
+			for (var obj : events) {
+				if (returnDistance(currX, currY, obj.latitude, obj.longitude) < 50) {
+					nearCoords.push({'latitude':obj.latitude, 'longitude:obj.longitude'});
+				}
+			}
+				
+			// $.get("/api/events", {latitude:currX, longitude:currY}, function(data) {
+			// 	alert(data + ' get success');
+			// }).done(function() {
+			// 	alert('second success');
+			// }).fail(function() {
+			// 	alert('error :(');
+			// }).always(function() {
+			// 	alert('finished');
+			// });
 	});
 
 	$("#search").val($("#search")[0].title);
