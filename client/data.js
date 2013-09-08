@@ -6,7 +6,7 @@ var events = [
       "room": "Lounge 0",
       "name": "Event 0",
       "sponsor": "Sponsor 0",
-      "address": "710 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -24,7 +24,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -33,7 +33,7 @@ var events = [
       "room": "Lounge 1",
       "name": "Event 1",
       "sponsor": "Sponsor 1",
-      "address": "711 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -51,7 +51,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -60,7 +60,7 @@ var events = [
       "room": "Lounge 2",
       "name": "Event 2",
       "sponsor": "Sponsor 2",
-      "address": "712 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -78,7 +78,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -87,7 +87,7 @@ var events = [
       "room": "Lounge 3",
       "name": "Event 3",
       "sponsor": "Sponsor 3",
-      "address": "713 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -105,7 +105,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -114,7 +114,7 @@ var events = [
       "room": "Lounge 4",
       "name": "Event 4",
       "sponsor": "Sponsor 4",
-      "address": "714 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -132,7 +132,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -141,7 +141,7 @@ var events = [
       "room": "Lounge 5",
       "name": "Event 5",
       "sponsor": "Sponsor 5",
-      "address": "715 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -159,7 +159,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -168,7 +168,7 @@ var events = [
       "room": "Lounge 6",
       "name": "Event 6",
       "sponsor": "Sponsor 6",
-      "address": "716 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -186,7 +186,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -195,7 +195,7 @@ var events = [
       "room": "Lounge 7",
       "name": "Event 7",
       "sponsor": "Sponsor 7",
-      "address": "717 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -213,7 +213,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -222,7 +222,7 @@ var events = [
       "room": "Lounge 8",
       "name": "Event 8",
       "sponsor": "Sponsor 8",
-      "address": "718 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -240,7 +240,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -249,7 +249,7 @@ var events = [
       "room": "Lounge 9",
       "name": "Event 9",
       "sponsor": "Sponsor 9",
-      "address": "719 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -267,7 +267,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -276,7 +276,7 @@ var events = [
       "room": "Lounge 10",
       "name": "Event 10",
       "sponsor": "Sponsor 10",
-      "address": "7110 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -294,7 +294,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -303,7 +303,7 @@ var events = [
       "room": "Lounge 11",
       "name": "Event 11",
       "sponsor": "Sponsor 11",
-      "address": "7111 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -321,7 +321,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -330,7 +330,7 @@ var events = [
       "room": "Lounge 12",
       "name": "Event 12",
       "sponsor": "Sponsor 12",
-      "address": "7112 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -348,7 +348,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -357,7 +357,7 @@ var events = [
       "room": "Lounge 13",
       "name": "Event 13",
       "sponsor": "Sponsor 13",
-      "address": "7113 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -375,7 +375,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -384,7 +384,7 @@ var events = [
       "room": "Lounge 14",
       "name": "Event 14",
       "sponsor": "Sponsor 14",
-      "address": "7114 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -402,7 +402,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -411,7 +411,7 @@ var events = [
       "room": "Lounge 15",
       "name": "Event 15",
       "sponsor": "Sponsor 15",
-      "address": "7115 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -429,7 +429,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -438,7 +438,7 @@ var events = [
       "room": "Lounge 16",
       "name": "Event 16",
       "sponsor": "Sponsor 16",
-      "address": "7116 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -456,7 +456,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -465,7 +465,7 @@ var events = [
       "room": "Lounge 17",
       "name": "Event 17",
       "sponsor": "Sponsor 17",
-      "address": "7117 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -483,7 +483,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -492,7 +492,7 @@ var events = [
       "room": "Lounge 18",
       "name": "Event 18",
       "sponsor": "Sponsor 18",
-      "address": "7118 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -510,7 +510,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -519,7 +519,7 @@ var events = [
       "room": "Lounge 19",
       "name": "Event 19",
       "sponsor": "Sponsor 19",
-      "address": "7119 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -531,7 +531,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -540,7 +540,7 @@ var events = [
       "room": "Lounge 20",
       "name": "Event 20",
       "sponsor": "Sponsor 20",
-      "address": "7120 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -552,7 +552,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -561,7 +561,7 @@ var events = [
       "room": "Lounge 21",
       "name": "Event 21",
       "sponsor": "Sponsor 21",
-      "address": "7121 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -573,7 +573,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -582,7 +582,7 @@ var events = [
       "room": "Lounge 22",
       "name": "Event 22",
       "sponsor": "Sponsor 22",
-      "address": "7122 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -594,7 +594,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -603,7 +603,7 @@ var events = [
       "room": "Lounge 23",
       "name": "Event 23",
       "sponsor": "Sponsor 23",
-      "address": "7123 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -621,7 +621,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -630,7 +630,7 @@ var events = [
       "room": "Lounge 24",
       "name": "Event 24",
       "sponsor": "Sponsor 24",
-      "address": "7124 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -642,7 +642,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -651,7 +651,7 @@ var events = [
       "room": "Lounge 25",
       "name": "Event 25",
       "sponsor": "Sponsor 25",
-      "address": "7125 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -663,7 +663,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -672,7 +672,7 @@ var events = [
       "room": "Lounge 26",
       "name": "Event 26",
       "sponsor": "Sponsor 26",
-      "address": "7126 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -684,7 +684,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     },
     {
@@ -693,7 +693,7 @@ var events = [
       "room": "Lounge 27",
       "name": "Event 27",
       "sponsor": "Sponsor 27",
-      "address": "7127 Chessie Crossing Way",
+      "address": "3451 WALNUT STREET",
       "city": "Woodbine",
       "state": "Maryland",
       "zipcode": 21797,
@@ -705,7 +705,7 @@ var events = [
           "quality": 100
         }
       ],
-      "instructions": "Swipe your Student ID card",
+      "instructions": "Shirt and shoes required",
       "restrictions": "ID card required"
     }
     ];
