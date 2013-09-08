@@ -10,6 +10,7 @@
     "url": "https://github.com/LohDownVideos/TheFreeStore/issues"
   },
   "dependencies": {
-    "express": "~3.4.0"
+    "express": "~3.4.0",
+    "request": "~2.27.0"
   }
 }
